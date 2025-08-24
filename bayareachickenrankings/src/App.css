@@ -1,8 +1,50 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+.label {
+    font-size: x-large;
+    color: white;
+}
+
+.S-label {
+    background-color: red;
+}
+
+.A-label {
+    background-color: orange;
+}
+
+.B-label {
+    background-color: yellow;
+}
+
+.C-label {
+    background-color: green;
+}
+
+.D-label {
+    background-color: skyblue;
+}
+
+.F-label {
+    background-color: pink;
+}
+
+.tierlist_container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(8, 1fr), 2fr;
+}
+
+.test {
+    width: 100%;
+    height: 100%;
 }
 
 .logo {
