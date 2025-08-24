@@ -1,45 +1,56 @@
 #root {
     height: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* padding: 2rem; */
     text-align: center;
 }
 
-.label {
+.label_text {
+    overflow: hidden;
+    text-align: center;
+    margin: 5px;
+}
+
+.label { /* label box */
     font-size: x-large;
-    color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .S-label {
-    background-color: red;
+    background-color: rgb(255, 127, 128);
 }
 
 .A-label {
-    background-color: orange;
+    background-color: rgb(255, 192, 127);
 }
 
 .B-label {
-    background-color: yellow;
+    background-color: rgb(255, 223, 128);
 }
 
 .C-label {
-    background-color: green;
+    background-color: rgb(255, 255, 127);
 }
 
 .D-label {
-    background-color: skyblue;
+    background-color: rgb(191, 255, 127);
 }
 
 .F-label {
-    background-color: pink;
+    background-color: rgb(127, 255, 127);
 }
 
 .tierlist_container {
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: repeat(8, 1fr), 2fr;
+    grid-template-columns: 150px calc(100% - 100px);
+    grid-template-rows: repeat(6, 1fr);
+    outline: 2px solid gray;
 }
 
 .test {
