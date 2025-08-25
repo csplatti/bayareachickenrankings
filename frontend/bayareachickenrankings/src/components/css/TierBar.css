@@ -1,0 +1,6 @@
+.tier_bar {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    aspect-ratio: 10;
+    flex-direction: row;
+}

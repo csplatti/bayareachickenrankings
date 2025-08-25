@@ -1,0 +1,15 @@
+.label_text {
+    overflow: hidden;
+    text-align: center;
+    margin: 5px;
+}
+
+.label { /* label box */
+    font-size: x-large;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: inherit;
+}
